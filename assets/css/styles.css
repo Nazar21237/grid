@@ -1,0 +1,82 @@
+@import "./resets.css";
+@import "./grid.css";
+@import url('https://fonts.googleapis.com/css2?family=Revalia&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+body{
+  background-color: #EEEFF1;
+}
+
+
+.nav-conatiner{
+  margin: 20px auto;
+}
+.nav-wrapper{
+  display: flex;
+}
+.logo{
+  color: #34547A;
+  font-family: Revalia;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 48px;
+  line-height: 60px;
+  display: flex;
+  padding: 25px;
+  justify-content:flex-start;
+}
+
+ul{
+  display: flex;
+  justify-content: space-between;
+  padding: 55px;
+
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: 0.1em;
+  color: black;
+}
+
+.nav-first-section{
+  color: #34547A;
+}
+.container-body{
+  padding:25px;
+}
+.left-image{
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+/* .right-container{
+  margin: ;
+} */
+.right-header-container{
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 79px;
+}
+.right-wrapper-container{
+  font-family: Roboto;
+  color: #727272;
+  font-size: 16px;
+  line-height: 26px;
+  padding-top:40px;
+  padding-bottom: 40px;
+}
+.right-button{
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  letter-spacing: 0.1em;
+  background-color: #34547A;
+  color: #ffffff;
+  width: 225px;
+  height: 65px;
+}
